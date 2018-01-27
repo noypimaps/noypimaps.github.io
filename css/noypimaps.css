@@ -65,17 +65,20 @@ header.masthead {
   background-size: cover;
 }
 #headerline{
-  margin: 80px 280px 40px 280px;
+  margin: 80px 0px 20px 0px;
   font-size: 3rem;
   letter-spacing: -1px;
   font-family: "Open Sans", sans-serif;
   text-indent: -3px;
   font-weight: 700;
 }
+#header-container{
+  align-items: center;
+  width: 50%;
+
+}
 #tagline{
-  margin: 10px 120px 10px 120px;
   letter-spacing: -1px;
-  text-indent: -3px;
   font-size: 1.25rem;
   font-family: "Merriweather", serif;
 }
@@ -95,19 +98,62 @@ header.masthead .masthead-content {
 #blog-headerline{
   height: 9rem;
 }
-
+.display-4{
+  align-content: center;
+}
 @media screen and (max-width: 992px) and (min-width: 720px){
   .card{
     margin-left: 25%;
+    margin-top: 2%;
+
   }
 }
-@media (max-width: 720px) and (min-width: 480px){
-  .card{
-    margin-left: 20%;
+@media (max-width: 765px){
+  #headerline{
+    font-size: 1.75rem;
+    letter-spacing: -1px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
   }
-}
-@media (max-width: 440px){
+  #tagline{
+    letter-spacing: -1px;
+    font-size: 1rem;
+    font-family: "Merriweather", serif;
+  }
+  header.masthead .masthead-content {
+    z-index: 1;
+    position: relative;
+    height: 75px;
+  }
   .card{
     margin-left: 10%;
+    margin-top: 10%;
+    align-items: center;
+  }
+
+}
+@media (max-width: 480px){
+  #headerline{
+    font-size: 1.5rem;
+    letter-spacing: -1px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+  #tagline{
+    letter-spacing: -1px;
+    font-size: 1rem;
+    font-family: "Merriweather", serif;
+  }
+  header.masthead .masthead-content {
+    z-index: 1;
+    position: relative;
+    height: 75px;
+  }
+  .card{
+    margin-left: 10%;
+    margin-top: 10%;
+    align-items: center;
   }
 }
