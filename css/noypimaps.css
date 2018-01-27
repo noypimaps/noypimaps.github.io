@@ -65,8 +65,8 @@ header.masthead {
   background-size: cover;
 }
 #headerline{
-  margin: 10px 120px 10px 120px;
-  font-size: 3.5rem;
+  margin: 80px 280px 40px 280px;
+  font-size: 3rem;
   letter-spacing: -1px;
   font-family: "Open Sans", sans-serif;
   text-indent: -3px;
@@ -91,6 +91,9 @@ header.masthead .masthead-content {
 }
 .container{
   align-items: center;
+}
+#blog-headerline{
+  height: 9rem;
 }
 
 @media screen and (max-width: 992px) and (min-width: 720px){
